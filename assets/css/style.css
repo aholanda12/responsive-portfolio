@@ -1,5 +1,7 @@
 body {
-   background-color: #F5F5F5
+   background-color: #F5F5F5;
+   font-size: 15px;
+   line-height: 20px;
 }
 
 .container {
@@ -14,6 +16,8 @@ body {
 
 .navbar-brand {
     font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     color: white;
     text-shadow: 1px 1px 2px slategray;
 }
@@ -24,5 +28,26 @@ body {
 }
 
 .nav-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #99ccff;
+    padding: 20px;
+    margin: 5px 0px 20px 0px;
+    border-bottom: 2px solid lightgray;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 20px 10px 5px;
+    color:  #595959
+}
+
+#headshot {
+    margin: 5px 15px 15px 15px;
 }
