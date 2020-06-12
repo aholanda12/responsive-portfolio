@@ -7,7 +7,6 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/reset.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Contact Ashley Holanda</title>
 </head>
@@ -35,11 +34,30 @@
 
 <!-- Contact Section  -->
 <section>
-    <h1>Contact</h1>
-    <main>
+    <div class="container">
+        <div class="row">
+        <div class="col-8">
+            <h1>Contact</h1>
+        </div>
+        </div>
+        <main>
+            <form action="action_page.php">
 
-    </main>
-</section>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John Smith">
+            
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject"  style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
+        </main>
+    </div>
+    </section>
 
 <!-- Footer -->
 <footer>
