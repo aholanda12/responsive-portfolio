@@ -10,6 +10,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    position: relative;
 }
 
 .navbar {
@@ -113,7 +114,13 @@ p {
     margin: 10px 10px 10px 10px;
   }
 
-  
+  .footer {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
+
+
 
 /* Additional Screen Sizes */
 
