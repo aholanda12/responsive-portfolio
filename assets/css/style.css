@@ -91,6 +91,19 @@ p {
     padding: 10px;
  }
 
+ .webimg:hover + .textoverlay {
+     color: #2e455c;
+ }
+
+ .textoverlay:hover{
+    color: #2e455c;
+}
+
+.webimg:hover {
+    opacity: 0.3;
+    transition: opacity .6s;
+}
+
 
  input[type=text], select, textarea {
     width: 100%; 
