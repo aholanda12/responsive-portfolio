@@ -63,12 +63,33 @@ p {
     float: right;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #DCDCDC;
+    text-align: center;
+
+}
+
+
 /* Additional Screen Sizes */
 
 /* Width at 980px and below */
 @media screen and (max-width: 980px) {
     .container {
         width: 80%;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #DCDCDC;
+        text-align: center;
+    
     }
 
   }
@@ -83,6 +104,13 @@ p {
         position: relative; 
         right: 0%;  
     } 
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        background-color: #DCDCDC;
+        text-align: center;
     
   }
   
@@ -101,6 +129,14 @@ p {
         width: 100%;
         font-size: 20px;
         padding: 10px;
+    }
+
+    .footer {
+        bottom: 0;
+        width: 100%;
+        background-color: #DCDCDC;
+        text-align: center;
+    
     }
 
 }
