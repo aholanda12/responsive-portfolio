@@ -1,3 +1,5 @@
+/* MAIN */
+
 body {
    background-color: #F5F5F5;
    font-size: 15px;
@@ -12,6 +14,30 @@ body {
     margin-top: 20px;
     position: relative;
 }
+
+
+
+/* TEXT ELEMENTS */
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #99ccff;
+    padding: 20px;
+    margin: 5px 0px 20px 0px;
+    border-bottom: 2px solid lightgray;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 20px 10px 5px;
+    color:  #595959;
+}
+
+
+
+/* NAV BAR */
 
 .navbar {
     background-color: #99ccff;
@@ -40,30 +66,16 @@ body {
     color: white;
 }
 
-h2 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: #99ccff;
-    padding: 20px;
-    margin: 5px 0px 20px 0px;
-    border-bottom: 2px solid lightgray;
-}
 
-p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 5px 20px 10px 5px;
-    color:  #595959;
-}
+/* ABOUT ME PAGE */
 
 .headshot {
     margin: 5px 15px 15px 15px;
-    float: left;
 }
 
-.wrap {
-    float: right;
-}
+
+
+/* PORTFOLIO PAGE */
 
 .webimg {
     width: 350px;
@@ -74,7 +86,7 @@ p {
 .image {
     position: relative;
     display: inline-block;
- }
+}
  
 .textoverlay {
     position: absolute;
@@ -89,13 +101,13 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     padding: 10px;
- }
+}
 
- .webimg:hover + .textoverlay {
+.webimg:hover + .textoverlay {
      color: #2e455c;
- }
+}
 
- .textoverlay:hover{
+.textoverlay:hover{
     color: #2e455c;
 }
 
@@ -105,7 +117,10 @@ p {
 }
 
 
- input[type=text], select, textarea {
+
+/* CONTACT PAGE */
+
+input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
     border: 1px solid #ccc; 
@@ -115,9 +130,9 @@ p {
     margin-bottom: 16px; 
     resize: vertical 
     
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #99ccff;
     color: white;
     padding: 12px 20px;
@@ -125,61 +140,70 @@ p {
     border-radius: 4px;
     cursor: pointer;
     margin: 10px 10px 10px 10px;
-  }
+}
 
-  .footer {
+
+
+/* FOOTER */
+
+.footer {
     width: 100%;
     height: 2.5rem;
     text-align: center;
-  }
+}
 
 
 
-/* Additional Screen Sizes */
+/* DIFFERENT SCREEN SIZES */
 
-/* Width at 980px and below */
+
+
+/* WIDTH <!980PX */
 @media screen and (max-width: 980px) {
-    .container {
-        width: 80%;
-    }
 
-  }
-  
-/* Width at 768px and below */
-  @media screen and (max-width: 768px) {
-    .container {
-        width: 80%;
-    }
-
-    .navbar-nav { 
-        position: relative; 
-        right: 0%;  
-    } 
-  
-/* Width at 640px and below */
-@media screen and (max-width: 640px) {
-    .container {
-        width: 80%;
-    }
-
-    .navbar-brand { 
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .navbar-nav { 
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .nav-item {
-        width: 100%;
-        font-size: 20px;
-        padding: 10px;
-        text-align: center;
-    }
+.container {
+    width: 80%;
+}
 
 }
+
+
+/* WIDTH <!768px */
+@media screen and (max-width: 768px) {
+    
+.container {
+    width: 80%;
+}
+
+.navbar-nav { 
+    position: relative; 
+    right: 0%;  
+} 
+
+}
+
+/* WIDTH <!640px */
+@media screen and (max-width: 640px) {
+    
+.container {
+    width: 80%;
+}
+
+.navbar-brand { 
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav { 
+    width: 100%;
+    text-align: center;
+}
+
+.nav-item {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
 }
