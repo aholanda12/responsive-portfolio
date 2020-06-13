@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    background-color: #99ccff
+    background-color: #99ccff;
 }
 
 .navbar-brand {
@@ -50,13 +50,12 @@ h2 {
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px 20px 10px 5px;
-    color:  #595959
+    color:  #595959;
 }
 
 .headshot {
     margin: 5px 15px 15px 15px;
     float: left;
-    align: left;
 }
 
 .wrap {
@@ -90,7 +89,7 @@ p {
  }
 
 
-input[type=text], select, textarea {
+ input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
     border: 1px solid #ccc; 
@@ -102,7 +101,6 @@ input[type=text], select, textarea {
     
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: #99ccff;
     color: white;
@@ -173,12 +171,14 @@ input[type=text], select, textarea {
     .navbar-brand { 
         width: 100%;
         text-align: center;
+
     }
 
     .nav-item {
         width: 100%;
         font-size: 20px;
         padding: 10px;
+        text-align: center;
     }
 
     .footer {
@@ -189,4 +189,5 @@ input[type=text], select, textarea {
     
     }
 
+}
 }
