@@ -155,6 +155,12 @@ p {
 
     }
 
+    .navbar-nav { 
+        width: 100%;
+        text-align: center;
+
+    }
+
     .nav-item {
         width: 100%;
         font-size: 20px;
