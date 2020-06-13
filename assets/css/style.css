@@ -50,4 +50,9 @@ p {
 
 #headshot {
     margin: 5px 15px 15px 15px;
+    float: left;
+}
+
+#wrap {
+    float: right;
 }
