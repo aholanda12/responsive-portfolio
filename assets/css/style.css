@@ -48,11 +48,49 @@ p {
     color:  #595959
 }
 
-#headshot {
+.headshot {
     margin: 5px 15px 15px 15px;
     float: left;
+    align: left;
 }
 
-#wrap {
+.wrap {
     float: right;
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+    .container {
+        width: 80%;
+    }
+
+    .wrap {
+        float: right;
+    }
+
+  }
+  
+/* Width at 768px and below */
+  @media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .wrap {
+        float: right;
+    }
+    
+  }
+  
+/* Width at 168px and below */
+@media screen and (max-width: 640px) {
+    .container {
+        width: 80%;
+    }
+
+    .wrap {
+        float: right;
+    }
 }
