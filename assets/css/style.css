@@ -113,16 +113,7 @@ p {
     margin: 10px 10px 10px 10px;
   }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #DCDCDC;
-    text-align: center;
-
-}
-
+  
 
 /* Additional Screen Sizes */
 
@@ -130,16 +121,6 @@ p {
 @media screen and (max-width: 980px) {
     .container {
         width: 80%;
-    }
-
-    .footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 50px;
-        background-color: #DCDCDC;
-        text-align: center;
-    
     }
 
   }
@@ -154,15 +135,6 @@ p {
         position: relative; 
         right: 0%;  
     } 
-
-    .footer {
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        background-color: #DCDCDC;
-        text-align: center;
-    
-  }
   
 /* Width at 640px and below */
 @media screen and (max-width: 640px) {
@@ -181,14 +153,6 @@ p {
         font-size: 20px;
         padding: 10px;
         text-align: center;
-    }
-
-    .footer {
-        bottom: 0;
-        width: 100%;
-        background-color: #DCDCDC;
-        text-align: center;
-    
     }
 
 }
